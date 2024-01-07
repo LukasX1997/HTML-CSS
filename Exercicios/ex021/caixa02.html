@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: burlywood;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+
+        header{
+            text-align: center;
+            font-size: larger;
+            background-color: rgb(2, 102, 102);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: rgba(250, 235, 215, 0.445);
+            padding:3px;
+          
+
+        } 
+        nav > a{
+            text-decoration: none;
+            color:aliceblue;
+            font-weight: bold;
+            margin-right:30px;
+
+        }
+        
+        main{
+            background-color: rgb(2, 102, 102);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 15px;
+        }
+
+        article{
+            background-color: lightblue;
+            padding:5px;
+        }
+
+        article > aside {
+            background-color: lightgrey;
+
+        }
+
+        footer{
+            background-color: rgb(2, 102, 102);
+            text-align: center;
+            color: white;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin:0px;
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+
+
+        }
+    </style>
+</head>
+<body>
+   <header>
+    <h1>Meu Site</h1>
+    <nav>
+        <a href="@">Link</a>
+        <a href="@">Link</a>
+        <a href="@">Link</a>
+        <a href="@">Link</a>
+    </nav>
+   </header>
+   <main>
+        <section id="assuntos">
+            <article>
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione, porro maxime inventore ipsam voluptate exercitationem reprehenderit libero excepturi in ipsum optio corporis, facilis ab repellendus ullam sapiente necessitatibus aspernatur vitae?</p>
+                <aside>
+                    <p>Artigo escrito por Lucas</p>
+                </aside>
+            </article>
+
+        </section>
+
+
+   </main>
+   <footer>
+    <p> Desenvolvido por Lucas</p>
+
+   </footer>
+   <div id="bola"></div>
+</body>
+</html>
